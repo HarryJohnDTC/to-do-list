@@ -105,3 +105,8 @@ button.delete:hover {
 
 
 }
+button.disable {
+    background: rgb(94, 92, 92);  
+    color: black;        
+    cursor: not-allowed;
+}
