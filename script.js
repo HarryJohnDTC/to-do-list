@@ -47,11 +47,11 @@ function updateTask(button) {
     taskToUpdate = button.parentElement.parentElement;
     let taskText = taskToUpdate.querySelector("span").textContent;
     taskInput.value = taskText;
-
+}
 //check
-taskContainer.addEventListener("change", function(e) {
+taskContainer.addEventListener("change", function (e) {
     if (e.target && e.target.classList.contains("task-checkbox")) {
         let taskElement = e.target.parentElement;
         taskElement.classList.toggle("checked", e.target.checked);
     }
-});}
+});
